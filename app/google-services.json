@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "313369053601",
+    "firebase_url": "https://thefastercab.firebaseio.com",
+    "project_id": "thefastercab",
+    "storage_bucket": "thefastercab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313369053601:android:2a735053db6439574f23e0",
+        "android_client_info": {
+          "package_name": "com.waytosuccess.thefastercab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313369053601-loun1fjbloodi7ejrbn2cm6e8hvec1vu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waytosuccess.thefastercab",
+            "certificate_hash": "820bb407e4c9ae9109c6147bc85e4b169e038be7"
+          }
+        },
+        {
+          "client_id": "313369053601-b621fh5khpfch9gs6t8rcg1g92pasij8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmTylyYicJXkssRZ68gexA_KTaJ_qDMRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313369053601-b621fh5khpfch9gs6t8rcg1g92pasij8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

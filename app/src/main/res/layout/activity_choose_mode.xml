@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseModeActivity">
+
+    <ImageView
+        android:background="@drawable/taxi_logo_splash_screen_2_1"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#FFEA00"
+            android:layout_alignParentTop="true"
+            android:paddingTop="200dp"
+            android:rotation="-30"
+            android:text="The Faster Cab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/passengerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:onClick="goToPassenger"
+            android:background="#2196F3"
+            android:text="Passenger"
+            android:textColor="@android:color/white"
+            android:layout_above="@+id/driverButton"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/driverButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:onClick="goToDriver"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="#FFEA00"
+            android:textColor="@android:color/black"
+            android:text="Driver"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+</FrameLayout>
