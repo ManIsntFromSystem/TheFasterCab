@@ -52,9 +52,9 @@ public class SignInPassengerActivity extends AppCompatActivity {
         loginSignUpPasBtn = findViewById(R.id.loginSignUpPasBtn);
         toggleLoginSignUpTextView = findViewById(R.id.toggleLoginSignUpTextView);
 
-//        if (mAuth.getCurrentUser() != null) {
-//            startActivity(new Intent(SignInPassengerActivity.this, PassengerMapsActivity.class));
-//        }
+        if (mAuth.getCurrentUser() != null) {
+            startActivity(new Intent(SignInPassengerActivity.this, PassengerMapsActivity.class));
+        }
     }
 
     public void loginSignUpUser(View view) {
